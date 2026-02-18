@@ -92,7 +92,7 @@ export default function Home() {
     const formData = new FormData(event.target);
 
     // YAHAN APNI WEB3FORMS ACCESS KEY PASTE KAREIN
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "3bd5967d-43e4-4c5d-9503-37c4dd691fc2");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -149,9 +149,9 @@ export default function Home() {
             <div className="mb-4">
               <span className="text-green-400 font-mono tracking-[0.4em] uppercase text-xs md:text-sm bg-black/60 px-3 py-1 rounded border border-green-500/30">Verified Security Admin</span>
             </div>
-            <h1 className="text-5xl md:text-[7rem] lg:text-[8.5rem] font-black tracking-tighter text-white leading-[0.85] uppercase drop-shadow-2xl">
+            <h1 className="text-5xl md:text-[7rem] lg:text-[8.5rem] font-black tracking-tighter text-black leading-[0.85] uppercase drop-shadow-2xl">
               SUKUMAR <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 uppercase"> MANNA </span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-black-400 to-green-400 uppercase"> MANNA </span>
             </h1>
             <p className="mt-8 text-lg md:text-2xl text-white font-medium tracking-wide italic max-w-xl md:ml-auto drop-shadow-lg bg-black/30 p-2 rounded-lg">
               "Securing the infrastructure, designing the experience."
