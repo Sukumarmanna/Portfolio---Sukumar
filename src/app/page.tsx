@@ -151,7 +151,7 @@ export default function Home() {
             </div>
             <h1 className="text-5xl md:text-[7rem] lg:text-[8.5rem] font-black tracking-tighter text-black leading-[0.85] uppercase drop-shadow-2xl">
               SUKUMAR <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-black-400 to-green-400 uppercase"> MANNA </span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-black-400 to-black-400 uppercase"> MANNA </span>
             </h1>
             <p className="mt-8 text-lg md:text-2xl text-white font-medium tracking-wide italic max-w-xl md:ml-auto drop-shadow-lg bg-black/30 p-2 rounded-lg">
               "Securing the infrastructure, designing the experience."
