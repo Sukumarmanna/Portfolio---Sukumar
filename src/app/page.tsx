@@ -16,7 +16,10 @@ const skills = [
   { name: "HTML", color: "text-blue-400" }, { name: "CSS", color: "text-blue-400" }, 
   { name: "JavaScript", color: "text-green-400" }, { name: "Python", color: "text-green-400" }, 
   { name: "React", color: "text-blue-400" }, { name: "Next.js", color: "text-blue-400" }, 
-  { name: "Tableau", color: "text-green-400" }, { name: "PowerBI", color: "text-green-400" }
+  { name: "Tableau", color: "text-green-400" }, { name: "PowerBI", color: "text-green-400" },
+  { name: "Networking", color: "text-blue-400" }, { name: "Kalilinux", color: "text-blue-400" },
+  { name: "wireshark", color: "text-green-400" }, { name: "Burpsuite", color: "text-green-400" },
+  { name: "Ms Excel", color: "text-blue-400" }, { name: "Ms word", color: "text-blue-400" },
 ];
 
 const experiences = [
@@ -179,7 +182,7 @@ export default function Home() {
         <section id="training" className="mb-40 scroll-mt-24">
           <div className="flex items-center gap-4 mb-16 justify-center">
             <BarChart3 className="text-green-500" />
-            <h2 className="text-4xl font-bold text-white tracking-tight">Specialized Training</h2>
+            <h2 className="text-4xl font-bold text-white tracking-tight">Specialized Training & Certification</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {specializedTraining.map((item, i) => (
@@ -197,7 +200,7 @@ export default function Home() {
         <section id="experience" className="mb-40 scroll-mt-24">
           <div className="flex items-center gap-4 mb-16 justify-center">
             <Server className="text-blue-500" />
-            <h2 className="text-4xl font-bold text-white tracking-tight">Professional Journey</h2>
+            <h2 className="text-4xl font-bold text-white tracking-tight">Professional Journey & Experience</h2>
           </div>
           <div className="grid gap-8">
             {experiences.map((exp, i) => (
@@ -217,7 +220,7 @@ export default function Home() {
 
         {/* PROJECTS SECTION */}
         <section id="projects" className="mb-40 scroll-mt-24">
-           <h2 className="text-4xl font-bold mb-16 text-center text-white italic">Technical Works</h2>
+           <h2 className="text-4xl font-bold mb-16 text-center text-white italic">My Project</h2>
            <div className="grid md:grid-cols-2 gap-10">
               {projects.map((proj, i) => (
                 <div key={i} className="p-10 rounded-3xl bg-slate-900/40 border border-slate-800 hover:border-blue-500 group transition-all">
@@ -268,7 +271,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-xs text-slate-500 uppercase tracking-widest font-bold">Location</p>
-                  <p className="text-white font-medium text-sm md:text-base">Jamshedpur / Gorakhpur</p>
+                  <p className="text-white font-medium text-sm md:text-base">Jamshedpur / Jharkhand(INDIA)</p>
                 </div>
               </div>
             </div>
